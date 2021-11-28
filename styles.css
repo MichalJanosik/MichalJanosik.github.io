@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2 {
+    font-family: roboto;
+}
+
+h2 {
+    font-size: 40;
+    margin-top: 50;
+}
+
+p {
+    font-weight: 500;
+    font-size: 25;
+}
+
+.about_me {
+    font-weight: 500;
+    font-size: 30;
+}
+
+header {
+    background-color: #333333;
+    height: 61;
+    margin: 0 -8 0 -8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    float: right;
+    font-family: consolas;
+    height: 61;
+    padding-right: 10%; 
+}
+
+#navbar_logo {
+    height: 45;
+    padding-left: 10%;
+    padding-top: 9;
+    width: 45;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav a {
+    color: #ff0099;
+    font-size: 25;
+    margin: 0;
+    padding: 15 15 15 15;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+body {
+    background-image: url("assets/background.png");
+    font-family: consolas;
+}
+
+content {
+    padding-top: 61;
+}
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#name {
+    font-size: 80;
+    padding-top: 15%;
+}
+
+#career {
+    color: #ff0099;
+    font-size: 40; 
+}
+
+#separator {
+    font-weight: bold;
+    margin-top: 100;
+    margin-bottom: 39;
+    text-align: center;
+}
+
+.tech_wiki h1 {
+    font-size: 50;
+    margin-bottom: 70;
+    text-align: center;
+    padding-top: 61;
+}
